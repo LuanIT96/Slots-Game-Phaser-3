@@ -1,0 +1,9 @@
+<font>
+                  <info face="font" size="32" bold="0" italic="0" charset="" unicode="" stretchH="" smooth="" padding="" spacing="" outline=""/>
+                  <common lineHeight="32" base="" scaleW="" scaleH="" pages="1" packed="0"/>
+                  <pages>
+                    <page id="0" file="BonusMultiple.png"/>
+                  </pages>
+                  <chars count="11"><char id="48" x="140" y="0" width="68" height="88" xoffset="0" yoffset="-28" xadvance="68" page="0" chnl="15"/><char id="49" x="196" y="89" width="42" height="88" xoffset="0" yoffset="-28" xadvance="42" page="0" chnl="15"/><char id="50" x="277" y="0" width="66" height="88" xoffset="0" yoffset="-28" xadvance="66" page="0" chnl="15"/><char id="51" x="67" y="89" width="64" height="88" xoffset="0" yoffset="-28" xadvance="64" page="0" chnl="15"/><char id="52" x="0" y="0" width="69" height="88" xoffset="0" yoffset="-28" xadvance="69" page="0" chnl="15"/><char id="53" x="344" y="0" width="66" height="88" xoffset="0" yoffset="-28" xadvance="66" page="0" chnl="15"/><char id="54" x="411" y="0" width="66" height="88" xoffset="0" yoffset="-28" xadvance="66" page="0" chnl="15"/><char id="55" x="132" y="89" width="63" height="88" xoffset="0" yoffset="-28" xadvance="63" page="0" chnl="15"/><char id="56" x="209" y="0" width="67" height="88" xoffset="0" yoffset="-28" xadvance="67" page="0" chnl="15"/><char id="57" x="0" y="89" width="66" height="88" xoffset="0" yoffset="-28" xadvance="66" page="0" chnl="15"/><char id="120" x="70" y="0" width="69" height="88" xoffset="0" yoffset="-28" xadvance="69" page="0" chnl="15"/>
+                  </chars>
+                </font>

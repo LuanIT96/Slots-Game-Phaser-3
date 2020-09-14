@@ -1,0 +1,9 @@
+<font>
+                  <info face="font" size="32" bold="0" italic="0" charset="" unicode="" stretchH="" smooth="" padding="" spacing="" outline=""/>
+                  <common lineHeight="32" base="" scaleW="" scaleH="" pages="1" packed="0"/>
+                  <pages>
+                    <page id="0" file="CountDownFont.png"/>
+                  </pages>
+                  <chars count="11"><char id="48" x="214" y="1" width="36" height="40" xoffset="0" yoffset="0" xadvance="36" page="0" chnl="15"/><char id="49" x="39" y="211" width="32" height="40" xoffset="-1" yoffset="0" xadvance="28" page="0" chnl="15"/><char id="50" x="214" y="43" width="36" height="40" xoffset="0" yoffset="0" xadvance="36" page="0" chnl="15"/><char id="51" x="39" y="85" width="35" height="40" xoffset="0" yoffset="0" xadvance="35" page="0" chnl="15"/><char id="52" x="1" y="85" width="36" height="40" xoffset="0" yoffset="0" xadvance="36" page="0" chnl="15"/><char id="53" x="1" y="127" width="36" height="40" xoffset="0" yoffset="0" xadvance="36" page="0" chnl="15"/><char id="54" x="39" y="169" width="34" height="40" xoffset="0" yoffset="0" xadvance="34" page="0" chnl="15"/><char id="55" x="1" y="169" width="36" height="40" xoffset="0" yoffset="0" xadvance="36" page="0" chnl="15"/><char id="56" x="39" y="127" width="35" height="40" xoffset="0" yoffset="0" xadvance="35" page="0" chnl="15"/><char id="57" x="1" y="211" width="36" height="40" xoffset="0" yoffset="0" xadvance="36" page="0" chnl="15"/><char id="72" x="1" y="1" width="211" height="54" xoffset="0" yoffset="-7" xadvance="211" page="0" chnl="15"/>
+                  </chars>
+                </font>
