@@ -1,5 +1,6 @@
 import Key from '../../Key/key';
 import Options from '../../Constants/options';
+import Spin from '../../Class/Spin/Spin';
 
 export default class TweenContainer {
     constructor(scene, KeyTween = Key.tweenContainer) {
@@ -17,11 +18,11 @@ export default class TweenContainer {
             onRepeat: function() {
                 const randomNumber = Phaser.Math.RND.between(1, 10);
                 this.updateTo('y', this.targets[0].y + Options.symbolHeight, true);
-                this.targets[0].first.y = this.targets[0].last.y - Options.symbolHeight;
-                const symbol = this.targets[0].first;
+                this.targets[0].last.y = this.targets[0].first.y - Options.symbolHeight;
+                const symbol = this.targets[0].last;
                 //set texture symbols blur
                 symbol.setVisible(true).setTexture('symbolsBlur', 'symbols_' + randomNumber + '.png');
-                this.targets[0].moveTo(symbol, 4);
+                this.targets[0].moveTo(symbol, 0);
             },
             onComplete: function() {
                 this.updateTo('y', this.targets[0].y -= Options.symbolHeight, true);
@@ -49,11 +50,11 @@ export default class TweenContainer {
             onRepeat: function() {
                 const randomNumber = Phaser.Math.RND.between(1, 10);
                 this.updateTo('y', this.targets[0].y + Options.symbolHeight, true);
-                this.targets[0].first.y = this.targets[0].last.y - Options.symbolHeight;
-                const symbol = this.targets[0].first;
+                this.targets[0].last.y = this.targets[0].first.y - Options.symbolHeight;
+                const symbol = this.targets[0].last;
                 //set texture symbols blur
                 symbol.setVisible(true).setTexture('symbolsBlur', 'symbols_' + randomNumber + '.png');
-                this.targets[0].moveTo(symbol, 4);
+                this.targets[0].moveTo(symbol, 0);
             },
             onComplete: function() {
                 this.updateTo('y', this.targets[0].y -= Options.symbolHeight, true);
@@ -81,11 +82,11 @@ export default class TweenContainer {
             onRepeat: function() {
                 const randomNumber = Phaser.Math.RND.between(1, 11);
                 this.updateTo('y', this.targets[0].y + Options.symbolHeight, true);
-                this.targets[0].first.y = this.targets[0].last.y - Options.symbolHeight;
-                const symbol = this.targets[0].first;
+                this.targets[0].last.y = this.targets[0].first.y - Options.symbolHeight;
+                const symbol = this.targets[0].last;
                 //set texture symbols blur
                 symbol.setVisible(true).setTexture('symbolsBlur', 'symbols_' + randomNumber + '.png');
-                this.targets[0].moveTo(symbol, 4);
+                this.targets[0].moveTo(symbol, 0);
             },
             onComplete: function() {
                 this.updateTo('y', this.targets[0].y -= Options.symbolHeight, true);
@@ -113,11 +114,11 @@ export default class TweenContainer {
             onRepeat: function() {
                 const randomNumber = Phaser.Math.RND.between(1, 11);
                 this.updateTo('y', this.targets[0].y + Options.symbolHeight, true);
-                this.targets[0].first.y = this.targets[0].last.y - Options.symbolHeight;
-                const symbol = this.targets[0].first;
+                this.targets[0].last.y = this.targets[0].first.y - Options.symbolHeight;
+                const symbol = this.targets[0].last;
                 //set texture symbols blur
                 symbol.setVisible(true).setTexture('symbolsBlur', 'symbols_' + randomNumber + '.png');
-                this.targets[0].moveTo(symbol, 4);
+                this.targets[0].moveTo(symbol, 0);
             },
             onComplete: function() {
                 this.updateTo('y', this.targets[0].y -= Options.symbolHeight, true);
@@ -145,11 +146,11 @@ export default class TweenContainer {
             onRepeat: function() {
                 const randomNumber = Phaser.Math.RND.between(1, 11);
                 this.updateTo('y', this.targets[0].y + Options.symbolHeight, true);
-                this.targets[0].first.y = this.targets[0].last.y - Options.symbolHeight;
-                const symbol = this.targets[0].first;
+                this.targets[0].last.y = this.targets[0].first.y - Options.symbolHeight;
+                const symbol = this.targets[0].last;
                 //set texture symbols blur
                 symbol.setVisible(true).setTexture('symbolsBlur', 'symbols_' + randomNumber + '.png');
-                this.targets[0].moveTo(symbol, 4);
+                this.targets[0].moveTo(symbol, 0);
             },
             onComplete: function() {
                 this.updateTo('y', this.targets[0].y -= Options.symbolHeight, true);
@@ -177,11 +178,11 @@ export default class TweenContainer {
             onRepeat: function() {
                 const randomNumber = Phaser.Math.RND.between(1, 10);
                 this.updateTo('y', this.targets[0].y + Options.symbolHeight, true);
-                this.targets[0].first.y = this.targets[0].last.y - Options.symbolHeight;
-                const symbol = this.targets[0].first;
+                this.targets[0].last.y = this.targets[0].first.y - Options.symbolHeight;
+                const symbol = this.targets[0].last;
                 //set texture symbols blur
                 symbol.setVisible(true).setTexture('symbolsBlur', 'symbols_' + randomNumber + '.png');
-                this.targets[0].moveTo(symbol, 4);
+                this.targets[0].moveTo(symbol, 0);
             },
             onComplete: function() {
                 this.updateTo('y', this.targets[0].y -= Options.symbolHeight, true);
@@ -198,9 +199,15 @@ export default class TweenContainer {
                         this.targets[0].y -= Options.speed;
                         //set btn spin
                         this.targets[0].scene.classBaseSpin.btnSpin.setFrame('btn_spin.png');
+                        //clear Tint
                         this.targets[0].scene.classBaseSpin.btnSpin.clearTint();
+                        this.targets[0].scene.classPayTable.btnPayTable.clearTint();
+                        this.targets[0].scene.classAutoSpin.btnAutoSpin.clearTint();
+                        this.targets[0].scene.classCoin.btnCoin.clearTint();
                         //Options click = false
                         Options.click = false;
+                        //Class Spin
+                        this.spins = new Spin(this.targets[0].scene, Key.spin);
                     }
                 }); 
             }

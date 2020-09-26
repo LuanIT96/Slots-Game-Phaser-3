@@ -1,9 +1,0 @@
-<font>
-                  <info face="font" size="32" bold="0" italic="0" charset="" unicode="" stretchH="" smooth="" padding="" spacing="" outline=""/>
-                  <common lineHeight="32" base="" scaleW="" scaleH="" pages="1" packed="0"/>
-                  <pages>
-                    <page id="0" file="BlueScore.png"/>
-                  </pages>
-                  <chars count="13"><char id="43" x="42" y="0" width="46" height="62" xoffset="0" yoffset="-16" xadvance="46" page="0" chnl="15"/><char id="44" x="0" y="0" width="20" height="76" xoffset="0" yoffset="-16" xadvance="20" page="0" chnl="15"/><char id="46" x="21" y="0" width="20" height="76" xoffset="0" yoffset="-16" xadvance="20" page="0" chnl="15"/><char id="48" x="89" y="0" width="46" height="62" xoffset="0" yoffset="-16" xadvance="46" page="0" chnl="15"/><char id="49" x="47" y="126" width="30" height="62" xoffset="0" yoffset="-16" xadvance="30" page="0" chnl="15"/><char id="50" x="136" y="0" width="46" height="62" xoffset="0" yoffset="-16" xadvance="46" page="0" chnl="15"/><char id="51" x="183" y="0" width="46" height="62" xoffset="0" yoffset="-16" xadvance="46" page="0" chnl="15"/><char id="52" x="0" y="77" width="46" height="62" xoffset="0" yoffset="-16" xadvance="46" page="0" chnl="15"/><char id="53" x="47" y="63" width="46" height="62" xoffset="0" yoffset="-16" xadvance="46" page="0" chnl="15"/><char id="54" x="94" y="63" width="46" height="62" xoffset="0" yoffset="-16" xadvance="46" page="0" chnl="15"/><char id="55" x="141" y="63" width="46" height="62" xoffset="0" yoffset="-16" xadvance="46" page="0" chnl="15"/><char id="56" x="188" y="63" width="46" height="62" xoffset="0" yoffset="-16" xadvance="46" page="0" chnl="15"/><char id="57" x="0" y="140" width="46" height="62" xoffset="0" yoffset="-16" xadvance="46" page="0" chnl="15"/>
-                  </chars>
-                </font>

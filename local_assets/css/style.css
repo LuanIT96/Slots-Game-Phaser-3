@@ -6,6 +6,44 @@
     font-family: sans-serif;
 }
 
+/*Import font*/
+/*Roboto Slab*/
+@font-face {
+    font-family: 'Roboto Slab', serif;
+    src: url('../fonts/Roboto_Slab/RobotoSlab-Regular.ttf');
+    font-weight: 400;
+    font-weight: normal;
+}
+/*Merriweather*/
+@font-face {
+    font-family: 'Merriweather', serif;
+    src: url('../fonts/Merriweather/Merriweather-Regular.ttf');
+    font-weight: 400;
+    font-weight: normal;
+}
+/*Baloo Tammudu 2*/
+@font-face {
+    font-family: 'Baloo Tammudu 2', cursive;
+    src: url('../fonts/Baloo_Tammudu_2/BalooTammudu2-Regular.ttf');
+    font-weight: 400;
+    font-weight: normal;
+}
+/*Lobster*/
+@font-face {
+    font-family: 'Lobster', cursive;
+    src: url('../fonts/Lobster/Lobster-Regular.ttf');
+    font-weight: 400;
+    font-weight: normal;
+}
+
+/*Bree Serif*/
+@font-face {
+    font-family: 'Bree Serif', serif;
+    src: url('../fonts/Bree_Serif/BreeSerif-Regular.ttf');
+    font-weight: 400;
+    font-weight: normal;
+}
+
 body {
     background-color: #000000;
 }

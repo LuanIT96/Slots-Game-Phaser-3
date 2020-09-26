@@ -1,0 +1,146 @@
+{
+	"textures": [
+		{
+			"image": "buttons.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 119,
+				"h": 316
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "btn_auto_spin.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 45,
+						"h": 45
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 45,
+						"h": 45
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 45,
+						"h": 45
+					}
+				},
+				{
+					"filename": "btn_coin.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 40,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 5,
+						"w": 30,
+						"h": 30
+					},
+					"frame": {
+						"x": 48,
+						"y": 1,
+						"w": 30,
+						"h": 30
+					}
+				},
+				{
+					"filename": "btn_paytable.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 40,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 34,
+						"h": 34
+					},
+					"frame": {
+						"x": 80,
+						"y": 1,
+						"w": 34,
+						"h": 34
+					}
+				},
+				{
+					"filename": "btn_sound.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 40,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 7,
+						"w": 35,
+						"h": 27
+					},
+					"frame": {
+						"x": 1,
+						"y": 48,
+						"w": 35,
+						"h": 27
+					}
+				},
+				{
+					"filename": "btn_spin.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 117,
+						"h": 118
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 117,
+						"h": 118
+					},
+					"frame": {
+						"x": 1,
+						"y": 77,
+						"w": 117,
+						"h": 118
+					}
+				},
+				{
+					"filename": "btn_stop_spin.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 117,
+						"h": 118
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 117,
+						"h": 118
+					},
+					"frame": {
+						"x": 1,
+						"y": 197,
+						"w": 117,
+						"h": 118
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:8f98b93982fece53edadf1df109ef965:b2efe7169d7aa4f19255b17d8a655db3:b34c8670b11bb20cb1751a70d3683e22$"
+	}
+}

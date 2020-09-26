@@ -1,9 +1,0 @@
-<font>
-                  <info face="font" size="32" bold="0" italic="0" charset="" unicode="" stretchH="" smooth="" padding="" spacing="" outline=""/>
-                  <common lineHeight="32" base="" scaleW="" scaleH="" pages="1" packed="0"/>
-                  <pages>
-                    <page id="0" file="BonusWinElectric.png"/>
-                  </pages>
-                  <chars count="12"><char id="44" x="0" y="0" width="29" height="60" xoffset="-8" yoffset="-12" xadvance="18" page="0" chnl="15"/><char id="46" x="114" y="114" width="29" height="56" xoffset="-8" yoffset="-12" xadvance="18" page="0" chnl="15"/><char id="48" x="30" y="0" width="56" height="56" xoffset="-8" yoffset="-12" xadvance="44" page="0" chnl="15"/><char id="49" x="201" y="0" width="48" height="56" xoffset="-8" yoffset="-12" xadvance="38" page="0" chnl="15"/><char id="50" x="87" y="0" width="56" height="56" xoffset="-8" yoffset="-12" xadvance="44" page="0" chnl="15"/><char id="51" x="144" y="0" width="56" height="56" xoffset="-8" yoffset="-12" xadvance="44" page="0" chnl="15"/><char id="52" x="0" y="61" width="56" height="56" xoffset="-8" yoffset="-12" xadvance="44" page="0" chnl="15"/><char id="53" x="57" y="57" width="56" height="56" xoffset="-8" yoffset="-12" xadvance="44" page="0" chnl="15"/><char id="54" x="114" y="57" width="56" height="56" xoffset="-8" yoffset="-12" xadvance="44" page="0" chnl="15"/><char id="55" x="171" y="57" width="56" height="56" xoffset="-8" yoffset="-12" xadvance="44" page="0" chnl="15"/><char id="56" x="0" y="118" width="56" height="56" xoffset="-8" yoffset="-12" xadvance="44" page="0" chnl="15"/><char id="57" x="57" y="114" width="56" height="56" xoffset="-8" yoffset="-12" xadvance="44" page="0" chnl="15"/>
-                  </chars>
-                </font>
