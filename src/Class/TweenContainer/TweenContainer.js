@@ -17,6 +17,7 @@ export default class TweenContainer {
             repeat: Options.repeat[0],
             onRepeat: function() {
                 const randomNumber = Phaser.Math.RND.between(1, 10);
+                //update y
                 this.updateTo('y', this.targets[0].y + Options.symbolHeight, true);
                 this.targets[0].last.y = this.targets[0].first.y - Options.symbolHeight;
                 const symbol = this.targets[0].last;
@@ -25,6 +26,7 @@ export default class TweenContainer {
                 this.targets[0].moveTo(symbol, 0);
             },
             onComplete: function() {
+                //update y
                 this.updateTo('y', this.targets[0].y -= Options.symbolHeight, true);
                 //set texture symbols
                 for (let i = 0; i < 5; i++) {
@@ -49,6 +51,7 @@ export default class TweenContainer {
             repeat: Options.repeat[1],
             onRepeat: function() {
                 const randomNumber = Phaser.Math.RND.between(1, 10);
+                //update y
                 this.updateTo('y', this.targets[0].y + Options.symbolHeight, true);
                 this.targets[0].last.y = this.targets[0].first.y - Options.symbolHeight;
                 const symbol = this.targets[0].last;
@@ -57,6 +60,7 @@ export default class TweenContainer {
                 this.targets[0].moveTo(symbol, 0);
             },
             onComplete: function() {
+                //update y
                 this.updateTo('y', this.targets[0].y -= Options.symbolHeight, true);
                 //set texture symbols
                 for (let i = 0; i < 5; i++) {
@@ -81,6 +85,7 @@ export default class TweenContainer {
             repeat: Options.repeat[2],
             onRepeat: function() {
                 const randomNumber = Phaser.Math.RND.between(1, 11);
+                //update y
                 this.updateTo('y', this.targets[0].y + Options.symbolHeight, true);
                 this.targets[0].last.y = this.targets[0].first.y - Options.symbolHeight;
                 const symbol = this.targets[0].last;
@@ -89,6 +94,7 @@ export default class TweenContainer {
                 this.targets[0].moveTo(symbol, 0);
             },
             onComplete: function() {
+                //update y
                 this.updateTo('y', this.targets[0].y -= Options.symbolHeight, true);
                 //set texture symbols
                 for (let i = 0; i < 5; i++) {
@@ -113,6 +119,7 @@ export default class TweenContainer {
             repeat: Options.repeat[3],
             onRepeat: function() {
                 const randomNumber = Phaser.Math.RND.between(1, 11);
+                //update y
                 this.updateTo('y', this.targets[0].y + Options.symbolHeight, true);
                 this.targets[0].last.y = this.targets[0].first.y - Options.symbolHeight;
                 const symbol = this.targets[0].last;
@@ -121,6 +128,7 @@ export default class TweenContainer {
                 this.targets[0].moveTo(symbol, 0);
             },
             onComplete: function() {
+                //update y
                 this.updateTo('y', this.targets[0].y -= Options.symbolHeight, true);
                 //set texture symbols
                 for (let i = 0; i < 5; i++) {
@@ -145,6 +153,7 @@ export default class TweenContainer {
             repeat: Options.repeat[4],
             onRepeat: function() {
                 const randomNumber = Phaser.Math.RND.between(1, 11);
+                //update y
                 this.updateTo('y', this.targets[0].y + Options.symbolHeight, true);
                 this.targets[0].last.y = this.targets[0].first.y - Options.symbolHeight;
                 const symbol = this.targets[0].last;
@@ -153,6 +162,7 @@ export default class TweenContainer {
                 this.targets[0].moveTo(symbol, 0);
             },
             onComplete: function() {
+                //update y
                 this.updateTo('y', this.targets[0].y -= Options.symbolHeight, true);
                 //set texture symbols
                 for (let i = 0; i < 5; i++) {
@@ -177,6 +187,7 @@ export default class TweenContainer {
             repeat: Options.repeat[5],
             onRepeat: function() {
                 const randomNumber = Phaser.Math.RND.between(1, 10);
+                //update y
                 this.updateTo('y', this.targets[0].y + Options.symbolHeight, true);
                 this.targets[0].last.y = this.targets[0].first.y - Options.symbolHeight;
                 const symbol = this.targets[0].last;
@@ -185,6 +196,7 @@ export default class TweenContainer {
                 this.targets[0].moveTo(symbol, 0);
             },
             onComplete: function() {
+                //update y
                 this.updateTo('y', this.targets[0].y -= Options.symbolHeight, true);
                 //set texture symbols
                 for (let i = 0; i < 5; i++) {

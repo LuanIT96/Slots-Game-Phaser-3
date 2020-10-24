@@ -88,9 +88,7 @@ export default class GameScene extends Phaser.Scene {
 
     /*end function create*/
 
-    update() {
-
-    }
+    update() {}
 
     /*end function update*/
 }

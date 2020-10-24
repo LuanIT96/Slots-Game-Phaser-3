@@ -29,8 +29,8 @@ export default class Spin {
         this.getWinningLines(this.resultArray);
     }
     /*end function getResultSpin*/
-    getWinningLines(result) {
-        
+    getWinningLines(arrResult) {
+        //console.log(arrResult);
     }
     /*end function getWinningLines*/
 }
